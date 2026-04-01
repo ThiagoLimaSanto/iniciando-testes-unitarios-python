@@ -1,5 +1,9 @@
-def add2(x: int) -> int:
-    return x + 2
+def divisao(x: int) -> float:
+    return x / 2
 
-val = add2(3)
-print(val)
+def informacoes() -> dict:
+    return {
+        "is_ok": True,
+        "name": "Thiago",
+        "age": 22
+    }
