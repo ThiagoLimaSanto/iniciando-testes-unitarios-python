@@ -1,3 +1,6 @@
+def func_erro():
+    raise Exception("Meu erro está aqui!")
+
 def divisao(x: int) -> float:
     return x / 2
 
